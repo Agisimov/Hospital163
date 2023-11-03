@@ -1,0 +1,44 @@
+﻿<Window x:Class="Hospital163.Windows.Auth"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Hospital163.Windows"
+        mc:Ignorable="d"
+        Title="Auth" Height="450" Width="800">
+    <Grid>
+        <StackPanel Margin="0 0 0 0 " Height="100" >
+            <TextBlock Text="Авторизация"
+            FontSize="25"
+                   HorizontalAlignment="Center" 
+                   
+            />
+            <TextBox  x:Name="tbLogin"
+                Width="250"
+                Height="25"
+                      
+                />
+            <TextBox  x:Name="tbPassword"
+                Width="250"
+                Height="25"
+                      Margin="0 10 0 0"
+                     
+                />
+        </StackPanel>
+        <Button x:Name="btnVhod"
+                 Width="150"
+                Height="25"
+                Margin="200 300 0 0"
+                Content="Войти"
+                Click="btnVhod_Click"
+                />
+        <Button x:Name="btnReg"
+                 Width="150"
+                Height="25"
+                Margin="0 300 150 0"
+                Content="Зарегистрироваться"
+                Click="btnReg_Click"
+                />
+
+    </Grid>
+</Window>

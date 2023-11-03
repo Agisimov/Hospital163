@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2ee9224cb5814c9186ee811f161362f4" Name="Diagram1" ZoomLevel="86">
+        <EntityTypeShape EntityType="Hospital_AnisimovArkhipenko_4ISP419Model.Appointment" Width="1.5" PointX="8.25" PointY="5.625" />
+        <EntityTypeShape EntityType="Hospital_AnisimovArkhipenko_4ISP419Model.Departament" Width="1.5" PointX="0.75" PointY="9.25" />
+        <EntityTypeShape EntityType="Hospital_AnisimovArkhipenko_4ISP419Model.Diagnosis" Width="1.5" PointX="6" PointY="10" />
+        <EntityTypeShape EntityType="Hospital_AnisimovArkhipenko_4ISP419Model.Employee" Width="1.5" PointX="3" PointY="4.75" />
+        <EntityTypeShape EntityType="Hospital_AnisimovArkhipenko_4ISP419Model.Gender" Width="1.5" PointX="0.75" PointY="6" />
+        <EntityTypeShape EntityType="Hospital_AnisimovArkhipenko_4ISP419Model.MedicalService" Width="1.5" PointX="6" PointY="0.75" />
+        <EntityTypeShape EntityType="Hospital_AnisimovArkhipenko_4ISP419Model.Order" Width="1.5" PointX="10.5" PointY="5.75" />
+        <EntityTypeShape EntityType="Hospital_AnisimovArkhipenko_4ISP419Model.Patient" Width="1.5" PointX="6" PointY="4.5" />
+        <EntityTypeShape EntityType="Hospital_AnisimovArkhipenko_4ISP419Model.PatientDiagnosis" Width="1.5" PointX="8.25" PointY="2.875" />
+        <EntityTypeShape EntityType="Hospital_AnisimovArkhipenko_4ISP419Model.Post" Width="1.5" PointX="0.75" PointY="2.875" />
+        <EntityTypeShape EntityType="Hospital_AnisimovArkhipenko_4ISP419Model.sysdiagrams" Width="1.5" PointX="8.75" PointY="9.5" />
+        <EntityTypeShape EntityType="Hospital_AnisimovArkhipenko_4ISP419Model.TagOfClient" Width="1.5" PointX="3.75" PointY="2" />
+        <AssociationConnector Association="Hospital_AnisimovArkhipenko_4ISP419Model.FK_Appointment_Employee" />
+        <AssociationConnector Association="Hospital_AnisimovArkhipenko_4ISP419Model.FK_Appointment_MedicalService" />
+        <AssociationConnector Association="Hospital_AnisimovArkhipenko_4ISP419Model.FK_Order_Appointment" />
+        <AssociationConnector Association="Hospital_AnisimovArkhipenko_4ISP419Model.FK_Employee_Departament" />
+        <AssociationConnector Association="Hospital_AnisimovArkhipenko_4ISP419Model.FK_PatientDiagnosis_Diagnosis" />
+        <AssociationConnector Association="Hospital_AnisimovArkhipenko_4ISP419Model.FK_Employee_Gender" />
+        <AssociationConnector Association="Hospital_AnisimovArkhipenko_4ISP419Model.FK_Employee_Post" />
+        <AssociationConnector Association="Hospital_AnisimovArkhipenko_4ISP419Model.FK_Patient_Gender" />
+        <AssociationConnector Association="Hospital_AnisimovArkhipenko_4ISP419Model.FK_Order_Patient" />
+        <AssociationConnector Association="Hospital_AnisimovArkhipenko_4ISP419Model.FK_Patient_TagOfClient" />
+        <AssociationConnector Association="Hospital_AnisimovArkhipenko_4ISP419Model.FK_PatientDiagnosis_Patient" />
+        <EntityTypeShape EntityType="Hospital_AnisimovArkhipenko_4ISP419Model.gg" Width="1.5" PointX="10.75" PointY="0.75" />
+        <EntityTypeShape EntityType="Hospital_AnisimovArkhipenko_4ISP419Model.ggg_vv" Width="1.5" PointX="0.75" PointY="11.75" />
+        <EntityTypeShape EntityType="Hospital_AnisimovArkhipenko_4ISP419Model.history" Width="1.5" PointX="2.75" PointY="11.75" />
+        <EntityTypeShape EntityType="Hospital_AnisimovArkhipenko_4ISP419Model.one_v" Width="1.5" PointX="11.75" PointY="8.75" />
+        <EntityTypeShape EntityType="Hospital_AnisimovArkhipenko_4ISP419Model.th_V" Width="1.5" PointX="11.75" PointY="11.75" />
+        <EntityTypeShape EntityType="Hospital_AnisimovArkhipenko_4ISP419Model.three_V" Width="1.5" PointX="12.75" PointY="0.75" />
+        <EntityTypeShape EntityType="Hospital_AnisimovArkhipenko_4ISP419Model.two_V" Width="1.5" PointX="4.75" PointY="12.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

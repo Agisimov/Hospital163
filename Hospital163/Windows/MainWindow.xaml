@@ -1,0 +1,42 @@
+﻿<Window x:Class="Hospital163.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Hospital163"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" Margin="0 30 0 0" >
+            <TextBlock Text="Главная страница пациента"
+                       FontSize="25"
+                       
+                       />
+            <Button  x:Name="btnDannie" 
+                     Width="250"
+                     Height="30"
+                     Margin="0 50 0 0 "
+                     Content="Мои данные"
+                     FontSize="20"
+                     Click="btnDannie_Click"
+                     />
+            <Button  x:Name="btHistory" 
+                     Width="250"
+                     Height="30"
+                     Margin="0 50 0 0 "
+                     Content="Мои история"
+                     FontSize="20" Click="btHistory_Click"
+                     />
+            <Button  x:Name="btZapbs" 
+                     Width="250"
+                     Height="30"
+                     Margin="0 50 0 0 "
+                     Content="Записаться на услугу"
+                     FontSize="20" Click="btZapbs_Click"
+                     />
+
+
+        </StackPanel>
+
+    </Grid>
+</Window>

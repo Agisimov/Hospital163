@@ -1,0 +1,64 @@
+﻿<Window x:Class="Hospital163.Windows.EdditDannie"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Hospital163.Windows"
+        mc:Ignorable="d"
+        Title="EdditDannie" Height="450" Width="800">
+    <Grid>
+        <StackPanel >
+            <WrapPanel >
+                <TextBlock  Text="имя" FontSize="20" />
+                <TextBox x:Name="FName" FontSize="20" Width="250" Margin="50 0 0 0"/>
+            </WrapPanel>
+            <WrapPanel >
+                <TextBlock  Text="фамилия" FontSize="20" />
+                <TextBox x:Name="Lname" FontSize="20" Width="250" Margin="50 0 0 0"/>
+            </WrapPanel>
+            <WrapPanel >
+                <TextBlock  Text="отчество" FontSize="20" />
+                <TextBox x:Name="Mname" FontSize="20" Width="250" Margin="50 0 0 0"/>
+            </WrapPanel>
+
+            <WrapPanel >
+                <TextBlock Text="Дата рождения" FontSize="20" Margin="0 10 0 0 " />
+                <DatePicker Name="datee" />
+            </WrapPanel>
+
+            <WrapPanel >
+                <TextBlock Text="Телефон" FontSize="20" Margin="0 10 0 0 "/>
+                <TextBox x:Name="tele" FontSize="20"  Margin="50 0 0 0" Width="250"/>
+
+            </WrapPanel>
+            <WrapPanel >
+                <TextBlock Text="пол" FontSize="20" Margin="0 10 0 0 "/>
+                <ComboBox x:Name="pol" Margin=" 10 0 0 0 " />
+
+            </WrapPanel>
+            <WrapPanel >
+                <TextBlock Text="адресс" FontSize="20" Margin="0 10 0 0 "/>
+                <TextBox x:Name="adres" FontSize="20"  Margin="50 0 0 0" Width="250"/>
+
+            </WrapPanel>
+            <WrapPanel >
+                <TextBlock Text="почта" FontSize="20" Margin="0 10 0 0 "/>
+                <TextBox x:Name="pjchta" FontSize="20" Margin="50 0 0 0" Width="250"/>
+
+            </WrapPanel>
+
+
+        </StackPanel>
+        <Button x:Name="nax" Content="назад"
+                    Margin="10,340,658,35" Click="nax_Click" 
+                    />
+        <Button x:Name="izmena"
+                Width="150"
+                Height="25"
+                Content="сохранить"
+                 Margin="200 300 0 0 "
+                Click="izmena_Click"
+                />
+
+    </Grid>
+</Window>
